@@ -1,0 +1,65 @@
+/*
+Syntax error: Invalid CSS after "0": expected expression (e.g. 1px, bold), was ";"
+        on line 10 of ./public/stylesheets/sass/base.sass
+
+5:   overflow: hidden
+6: 
+7: ul.pictures li
+8:   float: left
+9:   list-style: none
+10:   margin: 0; 
+11:   li a 
+12:     position: relative
+13:     display: block
+14:     width: 80px
+15:     height: 80px
+
+Backtrace:
+./public/stylesheets/sass/base.sass:10
+/Users/admin/.rvm/gems/ruby-1.9.2-p136/gems/haml-3.0.25/lib/sass/scss/parser.rb:838:in `expected'
+/Users/admin/.rvm/gems/ruby-1.9.2-p136/gems/haml-3.0.25/lib/sass/script/lexer.rb:193:in `expected!'
+/Users/admin/.rvm/gems/ruby-1.9.2-p136/gems/haml-3.0.25/lib/sass/script/parser.rb:392:in `assert_done'
+/Users/admin/.rvm/gems/ruby-1.9.2-p136/gems/haml-3.0.25/lib/sass/script/parser.rb:50:in `parse'
+/Users/admin/.rvm/gems/ruby-1.9.2-p136/gems/haml-3.0.25/lib/sass/script/parser.rb:120:in `parse'
+/Users/admin/.rvm/gems/ruby-1.9.2-p136/gems/haml-3.0.25/lib/sass/script.rb:32:in `parse'
+/Users/admin/.rvm/gems/ruby-1.9.2-p136/gems/haml-3.0.25/lib/sass/engine.rb:672:in `parse_script'
+/Users/admin/.rvm/gems/ruby-1.9.2-p136/gems/haml-3.0.25/lib/sass/engine.rb:470:in `parse_property'
+/Users/admin/.rvm/gems/ruby-1.9.2-p136/gems/haml-3.0.25/lib/sass/engine.rb:459:in `parse_property_or_rule'
+/Users/admin/.rvm/gems/ruby-1.9.2-p136/gems/haml-3.0.25/lib/sass/engine.rb:440:in `parse_line'
+/Users/admin/.rvm/gems/ruby-1.9.2-p136/gems/haml-3.0.25/lib/sass/engine.rb:328:in `build_tree'
+/Users/admin/.rvm/gems/ruby-1.9.2-p136/gems/haml-3.0.25/lib/sass/engine.rb:347:in `block in append_children'
+/Users/admin/.rvm/gems/ruby-1.9.2-p136/gems/haml-3.0.25/lib/sass/engine.rb:346:in `each'
+/Users/admin/.rvm/gems/ruby-1.9.2-p136/gems/haml-3.0.25/lib/sass/engine.rb:346:in `append_children'
+/Users/admin/.rvm/gems/ruby-1.9.2-p136/gems/haml-3.0.25/lib/sass/engine.rb:337:in `block in build_tree'
+/Users/admin/.rvm/gems/ruby-1.9.2-p136/gems/haml-3.0.25/lib/sass/engine.rb:330:in `each'
+/Users/admin/.rvm/gems/ruby-1.9.2-p136/gems/haml-3.0.25/lib/sass/engine.rb:330:in `build_tree'
+/Users/admin/.rvm/gems/ruby-1.9.2-p136/gems/haml-3.0.25/lib/sass/engine.rb:347:in `block in append_children'
+/Users/admin/.rvm/gems/ruby-1.9.2-p136/gems/haml-3.0.25/lib/sass/engine.rb:346:in `each'
+/Users/admin/.rvm/gems/ruby-1.9.2-p136/gems/haml-3.0.25/lib/sass/engine.rb:346:in `append_children'
+/Users/admin/.rvm/gems/ruby-1.9.2-p136/gems/haml-3.0.25/lib/sass/engine.rb:216:in `_to_tree'
+/Users/admin/.rvm/gems/ruby-1.9.2-p136/gems/haml-3.0.25/lib/sass/engine.rb:178:in `to_tree'
+/Users/admin/.rvm/gems/ruby-1.9.2-p136/gems/haml-3.0.25/lib/sass/files.rb:44:in `tree_for'
+/Users/admin/.rvm/gems/ruby-1.9.2-p136/gems/haml-3.0.25/lib/sass/plugin.rb:223:in `update_stylesheet'
+/Users/admin/.rvm/gems/ruby-1.9.2-p136/gems/haml-3.0.25/lib/sass/plugin.rb:88:in `block (2 levels) in update_stylesheets'
+/Users/admin/.rvm/gems/ruby-1.9.2-p136/gems/haml-3.0.25/lib/sass/plugin.rb:81:in `each'
+/Users/admin/.rvm/gems/ruby-1.9.2-p136/gems/haml-3.0.25/lib/sass/plugin.rb:81:in `block in update_stylesheets'
+/Users/admin/.rvm/gems/ruby-1.9.2-p136/gems/haml-3.0.25/lib/sass/plugin.rb:79:in `each'
+/Users/admin/.rvm/gems/ruby-1.9.2-p136/gems/haml-3.0.25/lib/sass/plugin.rb:79:in `update_stylesheets'
+/Users/admin/.rvm/gems/ruby-1.9.2-p136/gems/haml-3.0.25/lib/sass/plugin.rb:50:in `check_for_updates'
+/Users/admin/.rvm/gems/ruby-1.9.2-p136/gems/haml-3.0.25/lib/sass/plugin/rack.rb:40:in `call'
+/Users/admin/.rvm/gems/ruby-1.9.2-p136/gems/rack-1.2.1/lib/rack/showexceptions.rb:24:in `call'
+/Users/admin/.rvm/gems/ruby-1.9.2-p136/gems/rack-1.2.1/lib/rack/methodoverride.rb:24:in `call'
+/Users/admin/.rvm/gems/ruby-1.9.2-p136/gems/rack-1.2.1/lib/rack/commonlogger.rb:18:in `call'
+/Users/admin/.rvm/gems/ruby-1.9.2-p136/gems/sinatra-1.1.2/lib/sinatra/base.rb:1167:in `block in call'
+/Users/admin/.rvm/gems/ruby-1.9.2-p136/gems/sinatra-1.1.2/lib/sinatra/base.rb:1193:in `synchronize'
+/Users/admin/.rvm/gems/ruby-1.9.2-p136/gems/sinatra-1.1.2/lib/sinatra/base.rb:1167:in `call'
+/Users/admin/.rvm/gems/ruby-1.9.2-p136/gems/rack-1.2.1/lib/rack/content_length.rb:13:in `call'
+/Users/admin/.rvm/gems/ruby-1.9.2-p136/gems/rack-1.2.1/lib/rack/handler/webrick.rb:52:in `service'
+/Users/admin/.rvm/rubies/ruby-1.9.2-p136/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+/Users/admin/.rvm/rubies/ruby-1.9.2-p136/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+/Users/admin/.rvm/rubies/ruby-1.9.2-p136/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"0\": expected expression (e.g. 1px, bold), was \";\"\A         on line 10 of ./public/stylesheets/sass/base.sass\A \A 5:   overflow: hidden\A 6: \A 7: ul.pictures li\A 8:   float: left\A 9:   list-style: none\A 10:   margin: 0; \A 11:   li a \A 12:     position: relative\A 13:     display: block\A 14:     width: 80px\A 15:     height: 80px"; }

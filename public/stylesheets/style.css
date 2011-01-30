@@ -1,0 +1,21 @@
+#main {
+	width: 400px;
+}
+#main ul.pictures li {
+  float: left;
+  list-style: none;
+  margin: 5px; }
+  #main ul.pictures li a {
+    position: relative;
+    display: block;
+/*    width: 79px;
+    height: 79px;
+*/ 		}
+	  #main ul.pictures li a img {
+	    width: 125px;
+/*	    height: 79px;*/
+	 		}
+  #main ul.pictures li a:hover img.original, #main ul.pictures li a.active img.original {
+    opacity: 1; }
+  #main ul.pictures li a:hover img.filtered, #main ul.pictures li a.active img.filtered {
+    opacity: 0; }

@@ -2,10 +2,8 @@ GEM
   remote: http://rubygems.org/
   remote: http://gems.github.com/
   specs:
-    addressable (2.2.3)
+    addressable (2.2.4)
     backports (1.18.2)
-    dancroak-twitter-search (0.5.8)
-      json (>= 1.1.2)
     diff-lcs (1.1.2)
     faraday (0.5.4)
       addressable (~> 2.2.2)
@@ -15,7 +13,6 @@ GEM
       faraday (~> 0.5.3)
     haml (3.0.25)
     hashie (0.4.0)
-    json (1.5.1)
     monkey-lib (0.5.4)
       backports
     multi_json (0.0.5)
@@ -61,7 +58,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  dancroak-twitter-search
   haml
   rack_hoptoad
   rspec

@@ -6,8 +6,6 @@ gem "haml"
 gem "rack_hoptoad"
 gem "twitter"
 
-gem "dancroak-twitter-search"
-
 group :development do
   gem "sinatra-reloader"
 end

@@ -1,4 +1,4 @@
-require 'twitter_search'
+require 'twitter'
 
 class TwitterPictures
 
@@ -63,10 +63,10 @@ class TwitterPictures
     end
   
     def self.fetch_tweets(users)
-      @client = TwitterSearch::Client.new 'http://forwardtechnology.co.uk/'
+      @client = Twitter::Search.new
       users_query = users.join(' OR ')
       query = "http (#{users_query})"
-      @client.query :q => query, :rpp => '50'
+      @client.containing(query).per_page(200)
     end
 
     def self.build_picture_html(text)

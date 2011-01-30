@@ -1,4 +1,5 @@
 require 'twitter'
+require "yajl"
 
 class TwitterPictures
 
